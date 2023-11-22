@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calculator</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="flex">
+  <div class="calc-container flex">
+
+    <div class="input-area">
+      <div id="input"></div>
+    </div>
+    <div class="output-area">
+      <div id="calc-result"></div>
+    </div>
+    <div class="additional-btns">
+      <i class='bx bx-time'></i>
+      <i class='bx bx-arrow-back'></i>
+    </div>
+    <div class="btns">
+      <div style="color:red " class="btn clicked flex">C</div>
+      <div style="color:green" class="btn removeFromLast flex"><i class='bx bx-arrow-back'></i></div>
+      <div style="color:green" class="btn click flex">%</div>
+      <div style="color:green" class="btn click flex">/</div>
+      <div style="color:white" class="btn click flex">7</div>
+      <div style="color:white" class="btn click flex">8</div>
+      <div style="color:white" class="btn click flex">9</div>
+      <div style="color:green" class="btn click flex">*</div>
+      <div style="color:white" class="btn click flex">4</div>
+      <div style="color:white" class="btn click flex">5</div>
+      <div style="color:white" class="btn click flex">6</div>
+      <div style="color:green" class="btn click flex">-</div>
+      <div style="color:white" class="btn click flex">1</div>
+      <div style="color:white" class="btn click flex">2</div>
+      <div style="color:white" class="btn click flex">3</div>
+      <div style="color:green" class="btn click flex">+</div>
+      <div style="color:white" class="bttn click flex">0</div>
+      <div style="color:white" class="btn click flex">.</div>
+      <div style="color:white; background:green" class="btn equal flex">=</div>
+    </div>
+    <footer>
+      <i class='bx bx-menu'></i>
+      <i class='bx bx-square-rounded'></i>
+      <i class='bx bx-chevron-left'></i>
+    </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
